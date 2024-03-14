@@ -6,6 +6,8 @@
 *a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
 *
 *b) Evite usar funções prontas, como, por exemplo, reverse;
+int length(): Retorna o tamanho da string, ou seja, a quantidade de caracteres da string;
+char charAt(int i): Retorna o i-ésimo caractere da string. Obs: assim como nos vetores a posição do primeiro caractere de uma string é igual a 0 (zero).
 */
 
 package cap14;
