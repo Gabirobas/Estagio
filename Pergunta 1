@@ -31,4 +31,5 @@ K = 9    K < INDICE = TRUE     SOMA = 45
 K = 10   K < INDICE = TRUE     SOMA = 55
 K = 11   K < INDICE = TRUE     SOMA = 66
 K = 12   K < INDICE = TRUE     SOMA = 78
-K = 13   K < INDICE = FALSE    *SOMA = 78*
+K = 13   K < INDICE = FALSE   
+*SOMA = 78*
