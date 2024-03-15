@@ -10,16 +10,18 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
 */
 
 package cap14;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 import java.util.Scanner;
 
-public class Pergunta02 {
+public class Pergunta5 {
     
     public static void main(String[] args) {
        Scanner ent = new Scanner(System.in);
        int valor = 0;
        //Declarando array tipo interger (números inteiros:)
-       int[10] array_fibb = {0,0,0,0,0,0,0,0,0,0};
-       bollean fibb;
+       int[] array_fibb = {0,0,0,0,0,0,0,0,0,0};
        int i, a = 0, b = 1, c;
 
             // recebe o número
@@ -32,24 +34,16 @@ public class Pergunta02 {
             c = a + b;
             a = b;
             b = c;
-           if (i < 10) { 
-            array_fibb [i] = c
-            }
+            array_fib[i] = c;
+                                   }
             
-           System.out.println("Sequência de Fibbonacci " + array_fiib );
+           System.out.println("Sequência de Fibbonacci " + array_fibb );
             
             // retorna se o número faz parteda sequência
-            if( (media >= 0) && (media <4) ){
-                System.out.println("Nota E");
-            } else if(media < 5){
-                System.out.println("Nota D");
-            } else if(media < 7){
-                System.out.println("Nota C");
-            } else if(media < 8){
-                System.out.println("Nota B");
-            } else if(media <= 10){
-                System.out.println("Nota A");
+            if(valor = c) {
+                System.out.println(valor + " faz parte da sequência de Fibonacci.");
+             } else {
+                System.out.println(valor + " não faz parte da sequência de Fibonacci.");
             }
         }       
-    }
-}
+     } 
