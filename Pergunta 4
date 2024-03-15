@@ -12,6 +12,6 @@ Sala 2 = L1, L2, L3
 
 Na Sala 1, Acionar I1 e I2
 Na Sala 2 Verificar quais lâmpadas estão acesas.
-Retornar a Sala 1, Desligar I2 e Acionar I3
+Na Sala 1, Desligar I2 e Acionar I3
 Na sala 2 Verificar quais lâmpadas estão acesas.
 Resultado, a lampada acesa nas duas verificações é controlada pelo I1, a lampâda acesa apenas na primeira verificação é controlada pelo I2 e a lâmpada apagada na primeira verificação e acesa na segunda é a controlada pelo I3
