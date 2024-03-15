@@ -6,47 +6,12 @@ Seu objetivo é descobrir qual interruptor controla qual lâmpada.
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 */
 
-package cap14;
-import java.util.Scanner;
+Sala 1 = I1, I2, I3 
 
-public class Exercicio01 {
-    
-    public static void main(String[] args) {
-        Scanner ent = new Scanner(System.in);
-        int nota1, nota2, nota3;
-        int media, i, contAluno = 0;
-        
-        for(i = 0; i < 3; i++){
-            
-            contAluno++;
-            // recebe a 1º nota
-            System.out.println("Aluno " + contAluno + ", digite sua 1ª nota");
-            nota1 = ent.nextInt();
-            
-            // recebe a 2º nota
-            System.out.println("Aluno " + contAluno + ", digite sua 2ª nota");
-            nota2 = ent.nextInt();
-            
-            // recebe a 3º nota
-            System.out.println("Aluno " + contAluno + ", digite sua 3ª nota");
-            nota3 = ent.nextInt();
-            
-            // calcula a média
-            media = (nota1 + nota2 + nota3) / 3;
-            System.out.println("A média do aluno " + contAluno + " é " + media);
-            
-            // mostra a nota do aluno
-            if( (media >= 0) && (media <4) ){
-                System.out.println("Nota E");
-            } else if(media < 5){
-                System.out.println("Nota D");
-            } else if(media < 7){
-                System.out.println("Nota C");
-            } else if(media < 8){
-                System.out.println("Nota B");
-            } else if(media <= 10){
-                System.out.println("Nota A");
-            }
-        }       
-    }
-}
+Sala 2 = L1, L2, L3
+
+Na Sala 1, Acionar I1 e I2
+Na Sala 2 Verificar quais lâmpadas estão acesas.
+Retornar a Sala 1, Desligar I2 e Acionar I3
+Na sala 2 Verificar quais lâmpadas estão acesas.
+Resultado, a lampada acesa nas duas verificações é controlada pelo I1, a lampâda acesa apenas na primeira verificação é controlada pelo I2 e a lâmpada apagada na primeira verificação e acesa na segunda é a controlada pelo I3
